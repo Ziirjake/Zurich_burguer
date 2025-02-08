@@ -24,7 +24,7 @@ header {
 }
 
 .logo {
-    width: 50px; /* Tamaño del logo */
+    width: 10px; /* Tamaño del logo */
     height: auto; /* Mantiene la proporción */
     border-radius: 50%; /* Opcional: si quieres un logo redondo */
 }
