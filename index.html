@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Zurich Burguer!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        !Zurich Burguer!
+    </header>
+    
+    <div class="menu">
+        <div class="menu-item" data-name="Burguer Zurich" data-price="15000">
+            <img src="hamburguesa1.jpg" alt="Burguer Zurich">
+            <h2>Burguer Zurich</h2>
+            <p>Pan suave con aderezo de queso crema y pimentón, carne mixta jugosa, queso fundido, cebolla caramelizada, tocineta crujiente, lechuga fresca, tomate y nuestras salsas estrella: ajo, tocineta y BBQ. ¡Imposible resistirse!</p>
+            <p><strong>$15.000 COP</strong></p>
+            <div class="quantity-selector">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" class="quantity" value="0" min="0">
+                <button class="quantity-btn plus">+</button>
+            </div>
+            <div class="checkmark">✔️</div>
+        </div>
+        <div class="menu-item" data-name="Delux Burguer" data-price="18000">
+            <img src="hamburguesa2.jpg" alt="Delux Burguer">
+            <h2>Delux Burguer</h2>
+            <p>Una combinación irresistible de carne mixta, maduro, tomate cherry caramelizado, cebolla caramelizada, doble queso, tocineta y nuestras salsas estrella: ajo, tocineta y BBQ. ¡Imposible resistirse!</p>
+            <p><strong>$18.000 COP</strong></p>
+            <div class="quantity-selector">
+                <button class="quantity-btn minus">-</button>
+                <input type="number" class="quantity" value="0" min="0">
+                <button class="quantity-btn plus">+</button>
+            </div>
+            <div class="checkmark">✔️</div>
+        </div>
+    </div>
+    
+    <a id="btn-whatsapp" class="btn-whatsapp" href="#" target="_blank">¡Haz tu pedido por WhatsApp!</a>
+    
+    <footer>
+        Dirección: Av 34f #46b 56, Barrio Alcala | Horarios: 06pm - 01am | Jueves a Domingo
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
